@@ -658,24 +658,24 @@
                 <div class="uk-width-medium-2-5">
                     <button class="md-btn uk-margin-bottom" data-uk-modal="{target:'#modal_default'}">Dynamic Form in Modal</button>
                     <div class="uk-modal" id="modal_default">
-                        <div class="uk-modal-dialog">
-                            <button type="button" class="uk-modal-close uk-close"></button>
-                            <div data-dynamic-fields="field_template_modal"></div>
-                            <script id="field_template_modal" type="text/x-handlebars-template">
-                                <div class="uk-grid form_section">
-                                    <div class="uk-width-1-1">
-                                        <div class="uk-input-group">
-                                            <label for="d_form_address{{counter}}">Address</label>
-                                            <input type="text" class="md-input" name="d_form_address{{counter}}" id="d_form_address{{counter}}">
-                                            <span class="uk-input-group-addon">
+                    <div class="uk-modal-dialog">
+                        <button type="button" class="uk-modal-close uk-close"></button>
+                        <div data-dynamic-fields="field_template_modal"></div>
+                        <script id="field_template_modal" type="text/x-handlebars-template">
+                            <div class="uk-grid form_section">
+                                <div class="uk-width-1-1">
+                                    <div class="uk-input-group">
+                                        <label for="d_form_address{{counter}}">Address</label>
+                                        <input type="text" class="md-input" name="d_form_address{{counter}}" id="d_form_address{{counter}}">
+                                        <span class="uk-input-group-addon">
                                                 <a href="#" class="btnSectionClone"><i class="material-icons md-24">&#xE146;</i></a>
                                             </span>
-                                        </div>
                                     </div>
                                 </div>
-                            </script>
-                        </div>
+                            </div>
+                        </script>
                     </div>
+                </div>
                     <div class="md-card">
                         <div class="md-card-content">
                             <div data-dynamic-fields="field_template_b"></div>
